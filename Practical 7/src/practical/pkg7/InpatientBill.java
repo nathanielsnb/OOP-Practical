@@ -1,14 +1,5 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package practical.pkg7;
 
-/**
- *
- * @author Nathaniel
- */
 public class InpatientBill extends PatientBill {
     private double specialistCharges, labCharges;
     private char roomType;
@@ -59,9 +50,6 @@ public class InpatientBill extends PatientBill {
         this.duration = duration;
     }
 
-     
-     
-    @Override
      public double calcTotalCharges() {
               double roomCharges = 0;
               switch(roomType) {

@@ -1,14 +1,5 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package practical.pkg7;
 
-/**
- *
- * @author Nathaniel
- */
 public class OutpatientBill extends PatientBill {
      private static double registerFees = 30.00;
      private double consultFees;
@@ -25,7 +16,6 @@ public class OutpatientBill extends PatientBill {
          return registerFees;
    }
 
-    // Insert getters and setters
     public double getConsultFees() {
         return consultFees;
     }
@@ -34,8 +24,6 @@ public class OutpatientBill extends PatientBill {
         this.consultFees = consultFees;
     }
 
-    
-     @Override
     public double calcTotalCharges() {
         return registerFees + consultFees;
     }

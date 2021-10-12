@@ -1,14 +1,5 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package practical.pkg3;
 
-/**
- *
- * @author Nathaniel
- */
 public class P3Q2 {
     public static int min(int[] arr) {
         int ptr = 0; int min = 0;

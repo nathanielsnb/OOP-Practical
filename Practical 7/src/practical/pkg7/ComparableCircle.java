@@ -1,14 +1,5 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package practical.pkg7;
 
-/**
- *
- * @author Nathaniel
- */
 public class ComparableCircle extends Circle implements Comparable,Colorable {
 
     public ComparableCircle(double radius) {
@@ -19,7 +10,6 @@ public class ComparableCircle extends Circle implements Comparable,Colorable {
         System.out.println("Color the edge");
     }   
     
-    //USE COMPARETO IS NOT SUITABLE
      public int compareTo(Object o){
         ComparableCircle temp = (ComparableCircle)o;
         
@@ -30,8 +20,5 @@ public class ComparableCircle extends Circle implements Comparable,Colorable {
         }else{
             return 0;
         }    
-   } 
-
-
-     
+   }      
 }

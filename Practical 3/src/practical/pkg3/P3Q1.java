@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package practical.pkg3;
 
 import java.util.Scanner;
@@ -37,7 +32,7 @@ public class P3Q1 {
         Scanner scan = new Scanner(System.in);
         double average;
         int bAverage=0,aAverage=0;
-        System.out.print("Enter number of quiz scores to process:");
+        System.out.print("Enter number of quiz scores to process: ");
         int numQuiz = scan.nextInt();
         
         int [] numbers= new int[numQuiz];  
@@ -51,7 +46,7 @@ public class P3Q1 {
         aAverage = belowAverage(numbers,average);
         
         System.out.println("\nResults\n=======");
-        System.out.printf("Average : %5.2f\n",average);
+        System.out.printf("Average is %5.2f\n",average);
         System.out.println("Numbers of scores above or equal to the average is "+ bAverage);
         System.out.println("Numbers of scores below the avearage is "+ aAverage);
     }

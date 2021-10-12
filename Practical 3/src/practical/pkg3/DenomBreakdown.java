@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package practical.pkg3;
 
 import java.util.Scanner;
@@ -20,7 +15,7 @@ public class DenomBreakdown {
        }
 
        int sum = 0;
-       System.out.println("Denomination(RM)         Quantity            Value (RM)");
+       System.out.println("\nDenomination(RM)         Quantity            Value (RM)");
        for(int i=0; i<=5; i++){
            sum = sum + (denom[i]*qty[i]);
            if(qty[i]>0)
