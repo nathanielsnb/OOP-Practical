@@ -1,2 +1,2 @@
 # OOP-Practical
-BACS2023 Object-Oriented Programming
+Object-Oriented Programming
